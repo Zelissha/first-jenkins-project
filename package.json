@@ -1,0 +1,19 @@
+{
+  "name": "playwright-implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests":"npx playwright test",
+    "tests:specific":"npx playwright test --grep sepLogin.spec.js",
+    "tests:tag":"npx playwright test --grep @smoke",
+    "report":" npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
+  }
+}
